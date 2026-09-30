@@ -22,13 +22,13 @@ newsToggle?.addEventListener("click", () => {
 
 document.querySelector("#year").textContent = new Date().getFullYear();
 
-const navSections = [...document.querySelectorAll("#about, #news, #publications, #research, #education, #contact")];
+const navSections = [...document.querySelectorAll("#about, #news, #publications, #research, #education")];
 function updateActiveLink() {
   let current = "about";
   for (const section of navSections) {
     if (section.getBoundingClientRect().top <= 150) current = section.id;
   }
-  if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8) current = "contact";
+  if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8) current = "education";
   navigation?.querySelectorAll("a").forEach((link) => link.classList.toggle("active", link.hash === "#" + current));
 }
 window.addEventListener("scroll", updateActiveLink, { passive: true });
