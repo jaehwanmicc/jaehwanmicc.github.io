@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9fb">
+  <meta name="description" content="Jaehwan Choi researches AI for materials discovery at Seoul National University.">
+  <title>Jaehwan Choi · AI for Materials Discovery</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#home" aria-label="Jaehwan Choi, home">Jaehwan Choi<span class="wordmark-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#research">Research</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero page-width" id="home" aria-labelledby="hero-title">
+      <div class="portrait-wrap">
+        <div class="portrait-frame"><img src="assets/profile.jpg" alt="Portrait of Jaehwan Choi" width="2316" height="3088"></div>
+        <span class="portrait-accent" aria-hidden="true"></span>
+      </div>
+      <div class="hero-copy" id="about">
+        <p class="eyebrow">Seoul National University · Chemical &amp; Biological Engineering</p>
+        <h1 id="hero-title">Jaehwan <em>Choi</em></h1>
+        <p class="hero-lede">I work on AI for materials discovery, connecting scientific reasoning with computational tools to design materials that can move toward realization.</p>
+        <p class="hero-detail">I am an integrated M.S.–Ph.D. student at Seoul National University. My research spans large language model agents, synthesis-aware inorganic materials design, and machine-learning representations built from chemical knowledge. Earlier work focused on colloidal quantum dots for optoelectronics.</p>
+        <div class="hero-links" aria-label="Profile links">
+          <a href="mailto:jaehwanchoi@snu.ac.kr">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/jaehwanmicc" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://orcid.org/0009-0003-2057-0764" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-width" id="news" aria-labelledby="news-title">
+      <div class="section-heading"><span class="section-number">01</span><h2 id="news-title">News</h2><span class="section-rule"></span></div>
+      <div class="news-list">
+        <div class="news-item"><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2609.16466" target="_blank" rel="noopener noreferrer">HiMatGen</a>, our work on hierarchical collective reasoning for materials design, appeared on arXiv.</p></div>
+        <div class="news-item"><time datetime="2026-08">Aug 2026</time><p><a href="https://arxiv.org/abs/2608.27587" target="_blank" rel="noopener noreferrer">CRISP</a>, on compiling chemical knowledge into executable descriptors, appeared on arXiv.</p></div>
+        <div class="news-item"><time datetime="2026-08">Aug 2026</time><p>Our review on <a href="https://doi.org/10.1021/acs.chemrev.6c00154" target="_blank" rel="noopener noreferrer">AI for accelerated materials discovery</a> was published in <em>Chemical Reviews</em>.</p></div>
+        <div class="news-item"><time datetime="2026-01">Jan 2026</time><p><a href="https://arxiv.org/abs/2601.15743" target="_blank" rel="noopener noreferrer">Materealize</a>, a multi-agent system for materials design and synthesis, appeared on arXiv.</p></div>
+        <div class="news-item news-older" hidden><time datetime="2025-10">Oct 2025</time><p><a href="https://doi.org/10.1021/jacs.5c07743" target="_blank" rel="noopener noreferrer">Synthesis-Aware Materials Redesign via Large Language Models</a> was published in <em>JACS</em>.</p></div>
+      </div>
+      <button class="subtle-button" id="news-toggle" type="button" aria-expanded="false">Show earlier news <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="section page-width" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><span class="section-number">02</span><h2 id="publications-title">Publications</h2><span class="section-rule"></span></div>
+      <div class="section-intro-row"><p>Selected work across agentic materials design, synthesizability, and functional materials.</p><div class="pub-switch" role="group" aria-label="Publication view"><button type="button" data-view="selected" aria-pressed="true">Selected</button><button type="button" data-view="all" aria-pressed="false">All</button></div></div>
+      <div class="publication-list">
+        <article class="publication" data-selected="true"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Preprint · Agentic materials design</p><h3><a href="https://arxiv.org/abs/2609.16466" target="_blank" rel="noopener noreferrer">Scaling LLM Agents for Materials Design through Hierarchical Collective Reasoning</a></h3><p class="authors"><strong>J Choi</strong>, Y Jung</p><p class="pub-venue">arXiv:2609.16466</p><a class="pub-link" href="https://arxiv.org/abs/2609.16466" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="true"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Preprint · Materials prediction</p><h3><a href="https://arxiv.org/abs/2608.27587" target="_blank" rel="noopener noreferrer">Compiling Chemical Knowledge into Executable Descriptors for Materials Prediction</a></h3><p class="authors"><strong>J Choi</strong>, K Jang, S Kim, S Chen, K Nam, SH Noh, D Kim, Y Jung</p><p class="pub-venue">arXiv:2608.27587</p><a class="pub-link" href="https://arxiv.org/abs/2608.27587" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="true"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Review · Materials discovery</p><h3><a href="https://doi.org/10.1021/acs.chemrev.6c00154" target="_blank" rel="noopener noreferrer">AI for Accelerated Materials Discovery: From Generative Design to Autonomous Realization</a></h3><p class="authors"><strong>J Choi</strong>, S Kim, J Park, J Choi, S An, Y Jung</p><p class="pub-venue"><em>Chemical Reviews</em> 126, 8644–8693</p><a class="pub-link" href="https://doi.org/10.1021/acs.chemrev.6c00154" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Preprint · Solid-state batteries</p><h3><a href="https://arxiv.org/abs/2609.01088" target="_blank" rel="noopener noreferrer">Pressure-regulated mechanochemistry at lithium metal-sulfide electrolyte interfaces</a></h3><p class="authors">K Jang, <strong>J Choi</strong>, JW Choi, Y Jung</p><p class="pub-venue">arXiv:2609.01088</p><a class="pub-link" href="https://arxiv.org/abs/2609.01088" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="true"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Preprint · Multi-agent systems</p><h3><a href="https://arxiv.org/abs/2601.15743" target="_blank" rel="noopener noreferrer">Materealize: a multi-agent deliberation system for end-to-end material design and synthesis</a></h3><p class="authors">S Kim*, <strong>J Choi*</strong>, K Jang*, J Park, V Bernales, A Aspuru-Guzik, Y Jung</p><p class="pub-venue">arXiv:2601.15743 · * Equal contribution</p><a class="pub-link" href="https://arxiv.org/abs/2601.15743" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-type">Journal article · Synthesizability</p><h3><a href="https://doi.org/10.1021/acs.jcim.6c01171" target="_blank" rel="noopener noreferrer">Enhancing Generalization in Synthesizability Prediction of Structurally Dissimilar Materials</a></h3><p class="authors">S Kim, S Kwon, <strong>J Choi</strong>, Y Jung</p><p class="pub-venue"><em>Journal of Chemical Information and Modeling</em> 66, 8102–8109</p><a class="pub-link" href="https://doi.org/10.1021/acs.jcim.6c01171" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="true"><div class="pub-year">2025</div><div class="pub-body"><p class="pub-type">Journal article · Inorganic materials</p><h3><a href="https://doi.org/10.1021/jacs.5c07743" target="_blank" rel="noopener noreferrer">Synthesis-Aware Materials Redesign via Large Language Models</a></h3><p class="authors"><strong>J Choi*</strong>, S Kim*, Y Jung</p><p class="pub-venue"><em>Journal of the American Chemical Society</em> 147, 39113–39122 · * Equal contribution</p><a class="pub-link" href="https://doi.org/10.1021/jacs.5c07743" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2024</div><div class="pub-body"><p class="pub-type">Journal article · Optoelectronics</p><h3><a href="https://doi.org/10.1002/adom.202303097" target="_blank" rel="noopener noreferrer">P-Type Colloidal InSb Quantum Dot Ink Enables III–V Group Bulk-Heterojunction Shortwave Infrared (SWIR) Photodetector</a></h3><p class="authors">S Jee, MJ Si, <strong>JH Choi</strong>, D Kim, C Kim, D Yang, SW Baek</p><p class="pub-venue"><em>Advanced Optical Materials</em> 12, 2303097</p><a class="pub-link" href="https://doi.org/10.1002/adom.202303097" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2024</div><div class="pub-body"><p class="pub-type">Journal article · Optoelectronics</p><h3><a href="https://doi.org/10.1155/2024/5525410" target="_blank" rel="noopener noreferrer">Thiol-Free p-Type Colloidal Quantum Dot for Efficient Broadband Optoelectronics</a></h3><p class="authors">SH Kim*, YH Kim*, <strong>JH Choi*</strong>, et al.</p><p class="pub-venue"><em>International Journal of Energy Research</em> 2024, 5525410 · * Equal contribution</p><a class="pub-link" href="https://doi.org/10.1155/2024/5525410" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2023</div><div class="pub-body"><p class="pub-type">Journal article · Optoelectronics</p><h3><a href="https://doi.org/10.1002/adfm.202303778" target="_blank" rel="noopener noreferrer">Sulfurized Colloidal Quantum Dot/Tungsten Disulfide Multi-Dimensional Heterojunction for an Efficient Self-Powered Visible-to-SWIR Photodetector</a></h3><p class="authors">SH Kim, D Lee, S Moon, <strong>JH Choi</strong>, D Kim, J Kim, SW Baek</p><p class="pub-venue"><em>Advanced Functional Materials</em> 33, 2303778</p><a class="pub-link" href="https://doi.org/10.1002/adfm.202303778" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+        <article class="publication" data-selected="false"><div class="pub-year">2023</div><div class="pub-body"><p class="pub-type">Journal article · Optoelectronics</p><h3><a href="https://doi.org/10.1016/j.apsusc.2022.155804" target="_blank" rel="noopener noreferrer">Surface tailoring enables colloidal quantum dot: Metal-oxide nanocrystal hybrid ink for broadband photon energy conversion</a></h3><p class="authors"><strong>JH Choi</strong>, MJ Si, SH Kim, et al.</p><p class="pub-venue"><em>Applied Surface Science</em> 612, 155804</p><a class="pub-link" href="https://doi.org/10.1016/j.apsusc.2022.155804" target="_blank" rel="noopener noreferrer">Paper ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="section page-width" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><span class="section-number">03</span><h2 id="research-title">Research</h2><span class="section-rule"></span></div>
+      <div class="research-grid">
+        <div class="research-card"><span class="card-index">A / 03</span><h3>Agentic materials design</h3><p>Connecting language model reasoning with scientific tools and collaboration across specialties to explore materials candidates.</p></div>
+        <div class="research-card"><span class="card-index">B / 03</span><h3>Synthesis-aware discovery</h3><p>Bringing synthesizability and experimental pathways into computational design, from crystal redesign to synthesis planning.</p></div>
+        <div class="research-card"><span class="card-index">C / 03</span><h3>Chemical knowledge for ML</h3><p>Turning natural-language chemical ideas into transparent, executable representations for materials prediction.</p></div>
+      </div>
+    </section>
+
+    <section class="section page-width" id="education" aria-labelledby="education-title">
+      <div class="section-heading"><span class="section-number">04</span><h2 id="education-title">Education</h2><span class="section-rule"></span></div>
+      <div class="education-item"><span class="education-mark" aria-hidden="true">SNU</span><div><h3>Seoul National University</h3><p>Integrated M.S.–Ph.D. student · Department of Chemical and Biological Engineering</p></div></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="page-width contact-inner"><div><span class="eyebrow">Let's connect</span><h2 id="contact-title">Research starts with<br><em>a conversation.</em></h2></div><div class="contact-side"><p>I welcome conversations about AI, chemistry, and materials discovery.</p><a href="mailto:jaehwanchoi@snu.ac.kr">jaehwanchoi@snu.ac.kr <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-inner"><span>© <span id="year">2026</span> Jaehwan Choi</span><span>Made for clear science and good conversations.</span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
