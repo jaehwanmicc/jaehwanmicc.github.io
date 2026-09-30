@@ -20,11 +20,6 @@ newsToggle?.addEventListener("click", () => {
   newsToggle.innerHTML = expanded ? 'Show earlier news <span aria-hidden="true">↓</span>' : 'Show less <span aria-hidden="true">↑</span>';
 });
 
-document.querySelectorAll(".pub-switch button").forEach((button) => button.addEventListener("click", () => {
-  document.body.classList.toggle("show-all", button.dataset.view === "all");
-  document.querySelectorAll(".pub-switch button").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
-}));
-
 document.querySelector("#year").textContent = new Date().getFullYear();
 
 const navSections = [...document.querySelectorAll("#about, #news, #publications, #research, #education, #contact")];
