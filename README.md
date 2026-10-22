@@ -37,3 +37,5 @@ The Talks section includes these owner-confirmed additions:
 - SynCry, oral presentation at the Korean Chemical Society (KCS), March 2025 (owner-confirmed). No exact day or meeting edition is supplied.
 
 The Accelerate 2025 entry remains linked to the official poster list. Its presentation-type label is omitted at the owner's request; it has not been reclassified as an oral or invited presentation. The owner-requested placeholder remains available for additional talks. Replace it only with confirmed title, event, date, and presentation type. LinkedIn profile details were not accessible during this revision; the supplied canonical profile link remains available in the profile and Journey.
+
+Presentation dates are displayed at month/year precision (October 2026, June 2026, August 2025, March 2025). The owner requested full project-prefixed presentation titles: HiMatGen: Scaling LLM Agents for Materials Design through Hierarchical Collective Reasoning; Materealize: a multi-agent debate system for materials design; SynCry: Synthesis-Aware Materials Redesign via Large Language Models. The bibliography retains its original publication titles.
