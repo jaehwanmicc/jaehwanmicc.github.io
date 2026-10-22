@@ -34,6 +34,6 @@ The Korea University graduation honor is worded as "Department Valedictorian" in
 The Talks section includes these owner-confirmed additions:
 - HiMatGen, invited seminar at Samsung Advanced Institute of Technology (SAIT), October 2026. No exact day is supplied.
 - Materealize, oral presentation at the joint AI4X–Accelerate Conference 2026, June 18, 2026 in Singapore. The date, presenter and title are also in the public programme (p. 24): https://kazeevn.github.io/AI4X-Accelerate-2026/program_plain.pdf . The event abstract is https://openreview.net/pdf?id=ISXdzKNL8P . AC 2026 and AI4X are one joint event, not two talks.
-- SynCry, oral presentation at the Korean Chemical Society (KCS). The date and meeting edition are not supplied, so they are omitted.
+- SynCry, oral presentation at the Korean Chemical Society (KCS), March 2025 (owner-confirmed). No exact day or meeting edition is supplied.
 
 The Accelerate 2025 entry remains linked to the official poster list. Its presentation-type label is omitted at the owner's request; it has not been reclassified as an oral or invited presentation. The owner-requested placeholder remains available for additional talks. Replace it only with confirmed title, event, date, and presentation type. LinkedIn profile details were not accessible during this revision; the supplied canonical profile link remains available in the profile and Journey.
